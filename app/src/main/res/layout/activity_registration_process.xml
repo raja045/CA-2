@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationProcess"
+    android:background="#66FFEB3B">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Languages do you now?"
+        android:id="@+id/Whlan"></TextView>
+
+
+
+
+<CheckBox
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="10dp"
+android:text="Python"
+android:textColor="#C3D11D1D"
+android:id="@+id/checkbox1"
+    android:layout_below="@+id/Whlan"></CheckBox>
+<CheckBox
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="10dp"
+android:text="C++"
+android:textColor="#C3D11D1D"
+android:id="@+id/checkbox2"
+android:layout_below="@+id/checkbox1"
+    ></CheckBox>
+<CheckBox
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="10dp"
+android:text="Java"
+android:textColor="#C3D11D1D"
+android:id="@+id/checkbox3"
+android:layout_below="@+id/checkbox2"
+    ></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Cpp"
+        android:textColor="#C3D11D1D"
+        android:id="@+id/checkbox4"
+        android:layout_below="@+id/checkbox3"
+        ></CheckBox>
+</RelativeLayout>
